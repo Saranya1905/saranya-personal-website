@@ -20,6 +20,17 @@
     {
       background-color:palevioletred;
     }
+    body, html {
+  height: 100%;
+}
+.parallax {
+  background-image: url('.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 </style>        
 </head>
 <body style="background-color:skyblue;">  
@@ -32,8 +43,8 @@
    <b> <font face="Gabriola" font color="black" size="6"></b>
         Let me tell you a little bit about myself.
     <br>
-I'm saranya. I'm a little shy and easygoing.
 I like spending time at home, just relaxing. I like watching movies, listening to music, and drawing.
+I'm saranya. I'm a little shy and easygoing.
 I'm interested in all kinds of music.
 I'm not good at sports, but I like watching cricket matches.<br>
 Well, that's all.<br>
@@ -64,23 +75,17 @@ Well, that's all.<br>
       </ul>
     </nav>
     
-    <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
-      <h1></h1>
+    <div id="section1" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
       <p>My short term goals are fairly simple.<br>As a short target,I need to complete my UG degree successfully and then,I need to settle in work environment as quickly as i can.On the other hand i would like to continue my education as it can help me remain up-to-date and current within my profession </p>
-    
     </div>
-    <div id="section2" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
-      <h1></h1>
+    <div id="section2" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
       <p>My long term goals are to grow into the job.Progress is the key.I want to see myself extracting every single drop of experience as i move ahead.I also want to see myself taking bigger responsibilites  which will enhance my decision making skills </p>
-      
     </div>
     <div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
-      <h1></h1>
       <p>My first postive thing is to be active.I like motivation.I seek new opportunites.I look for excitement and action in my life,and i don't want to miss any part of it.
      <p>I try to enjoy my life as much as i can,and live everyday like it is my last day.When i'm looking at the future i don't really waste time planning for it,what's more important is what's going on right now. Because, I believe "what's meant to be yours will find its way into your life if you are in right path"</p>
     </div>
-    <div id="section4" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
-      <h1></h1>
+    <div id="section4" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
       <p>Now I will try to describe the challenges I face.These are shyness and short temper.Shyness keeps me from getting somethings I want in life.I feel shyness over in certain situation,such as speaking in classroom.The toughest job for me is getting on to the stage and speaking my words out and i don't know when will I get rid of this.</p>
     </div>
   </font>
@@ -137,9 +142,18 @@ Well, that's all.<br>
 <br>Not every simple girl likes to end her story simple....!!</center></font></b>
 </div>
 </div>
+
     </div>
     </div>
-    </body>
+   <div class="parallax"></div>
+
+    <div style="height:1000px;background-color:pink;font-size:36px">
+    This div is just here to enable scrolling.
+    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    </div>
     
+    <div class="parallax"></div>
+    
+    </body>
     </html>
     
